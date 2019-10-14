@@ -8,6 +8,8 @@ namespace VisitorWoW
 {
     class Client
     {
-
+        static void Main(string[] args)
+        {
+        }
     }
 }

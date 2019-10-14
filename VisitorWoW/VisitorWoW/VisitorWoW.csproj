@@ -43,14 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Client.cs" />
     <Compile Include="Dwarves.cs" />
     <Compile Include="Gnomes.cs" />
     <Compile Include="Humans.cs" />
     <Compile Include="IAzeroth.cs" />
     <Compile Include="IVisitor.cs" />
     <Compile Include="NightElves.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Client.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Visitor.cs" />
   </ItemGroup>
