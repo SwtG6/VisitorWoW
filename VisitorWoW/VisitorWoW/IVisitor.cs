@@ -9,9 +9,10 @@ namespace VisitorWoW
     interface IVisitor
     {
         void Visit(StormwindCity stormwindCity);
+        void Visit(Ironforge ironforge);
         void Visit(Darnassus darnassus);
         void Visit(Gnomeregan gnomeregan);
-        void Visit(Ironforge ironforge);
+        
     } 
    
 }

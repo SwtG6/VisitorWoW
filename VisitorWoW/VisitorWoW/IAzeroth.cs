@@ -8,6 +8,7 @@ namespace VisitorWoW
 {
     interface IAzeroth //Element
     {
+        void CapitalName();
         void Accept(IVisitor visitor);
     }
 }

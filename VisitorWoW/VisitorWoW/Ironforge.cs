@@ -8,6 +8,11 @@ namespace VisitorWoW
 {
     class Ironforge : IAzeroth
     {
+        public void CapitalName()
+        {
+            Console.WriteLine("Ironforge:");
+        }
+
         public void Accept(IVisitor visitor)
         {
             visitor.Visit(ironforge:this);

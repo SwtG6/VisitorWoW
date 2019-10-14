@@ -8,6 +8,12 @@ namespace VisitorWoW
 {
     class Darnassus : IAzeroth
     {
+        public void CapitalName()
+        {
+            Console.WriteLine("Darnassus:");
+        }
+
+
         public void Accept(IVisitor visitor)
         {
             visitor.Visit(darnassus:this);
