@@ -8,10 +8,10 @@ namespace VisitorWoW
 {
     interface IVisitor
     {
-        void Visit(Humans humans);
-        void Visit(NightElves nightElves);
-        void Visit(Gnomes gnomes);
-        void Visit(Dwarves dwarves);
+        void Visit(StormwindCity stormwindCity);
+        void Visit(Darnassus darnassus);
+        void Visit(Gnomeregan gnomeregan);
+        void Visit(Ironforge ironforge);
     } 
    
 }

@@ -8,22 +8,22 @@ namespace VisitorWoW
 {
     class Visitor : IVisitor
     {
-        public void Visit(Humans humans)
+        public void Visit(StormwindCity stormwindCity)
         {
             Console.WriteLine("For the Alliance");
         }
 
-        public void Visit(NightElves nightElves)
+        public void Visit(Darnassus darnassus)
         {
             Console.WriteLine("May the stars guide you");
         }
 
-        public void Visit(Gnomes gnomes)
+        public void Visit(Gnomeregan gnomeregan)
         {
             Console.WriteLine("My, you're a tall one!");
         }
 
-        public void Visit(Dwarves dwarves)
+        public void Visit(Ironforge ironforge)
         {
             Console.WriteLine("Interest ya'n a pint?");
         }
