@@ -8,5 +8,6 @@ namespace VisitorWoW
 {
     class Client
     {
+
     }
 }

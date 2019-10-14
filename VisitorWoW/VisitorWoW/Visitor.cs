@@ -10,7 +10,7 @@ namespace VisitorWoW
     {
         public void Visit(Humans humans)
         {
-            Console.WriteLine("For the Alliance");
+            Console.WriteLine("For the Alliance XD");
         }
 
         public void Visit(NightElves nightElves)
