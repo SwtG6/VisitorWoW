@@ -27,8 +27,7 @@ namespace VisitorWoW
 
             var v1 = new RacialQuotesVisitor();
             Client.AfterVisitor(azeroth, v1);
-            Console.WriteLine();
-            Console.ReadKey();
+            // Console.WriteLine();
 
         }
     }

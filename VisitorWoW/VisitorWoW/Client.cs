@@ -13,7 +13,7 @@ namespace VisitorWoW
             Console.WriteLine("Before visitor: \n");
             foreach (var Capital in Capitals)
             {
-                Capital.CapitalName();
+                Capital.WriteCapitalName();
                 Console.WriteLine("\n");
             }
         }
@@ -23,7 +23,7 @@ namespace VisitorWoW
             Console.WriteLine("After visitor: \n");
             foreach (var Capital in Capitals)
             {
-                Capital.CapitalName();
+                Capital.WriteCapitalName();
                 Capital.Accept(visitor);
                 Console.WriteLine("\n");
             }

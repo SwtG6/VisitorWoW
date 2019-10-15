@@ -9,9 +9,12 @@ namespace VisitorWoW
 {
     class Gnomeregan : IAzeroth
     {
-        public void CapitalName()
+
+        private string _capitalName = "Gnomeregan";
+
+        public void WriteCapitalName()
         {
-            Console.WriteLine("Gnomeregan:");
+            Console.WriteLine(_capitalName);
         }
 
         public void Accept(IVisitor visitor)

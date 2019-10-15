@@ -8,9 +8,11 @@ namespace VisitorWoW
 {
     class Darnassus : IAzeroth
     {
-        public void CapitalName()
+        private string _capitalName = "Darnassus";
+
+        public void WriteCapitalName()
         {
-            Console.WriteLine("Darnassus:");
+            Console.WriteLine(_capitalName);
         }
 
 

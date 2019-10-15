@@ -8,9 +8,11 @@ namespace VisitorWoW
 {
     class StormwindCity : IAzeroth
     {
-        public void CapitalName()
+        private string _capitalName = "Stormwind City";
+
+        public void WriteCapitalName()
         {
-            Console.WriteLine("Stormwind City:");
+            Console.WriteLine(_capitalName);
         }
 
         public void Accept(IVisitor visitor)
