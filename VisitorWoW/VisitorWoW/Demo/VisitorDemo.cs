@@ -23,11 +23,9 @@ namespace VisitorWoW
             Console.WindowWidth = 100;
             Console.WindowHeight = 35;
             Client.BeforeVisitor(azeroth);
-            Console.WriteLine();
 
             var v1 = new RacialQuotesVisitor();
             Client.AfterVisitor(azeroth, v1);
-            // Console.WriteLine();
 
         }
     }

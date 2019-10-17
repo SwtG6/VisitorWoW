@@ -44,15 +44,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Client.cs" />
-    <Compile Include="Ironforge.cs" />
-    <Compile Include="Gnomeregan.cs" />
-    <Compile Include="StormwindCity.cs" />
+    <Compile Include="Elements\Ironforge.cs" />
+    <Compile Include="Elements\Gnomeregan.cs" />
+    <Compile Include="Elements\StormwindCity.cs" />
     <Compile Include="IAzeroth.cs" />
     <Compile Include="IVisitor.cs" />
-    <Compile Include="Darnassus.cs" />
-    <Compile Include="VisitorDemo.cs" />
+    <Compile Include="Elements\Darnassus.cs" />
+    <Compile Include="Demo\VisitorDemo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RacialQuotesVisitor.cs" />
+    <Compile Include="Visitors\RacialQuotesVisitor.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
